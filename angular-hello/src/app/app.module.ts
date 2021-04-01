@@ -7,6 +7,7 @@ import { CustomerComponent } from './customer/customer.component';
 import { OrdersComponent } from './orders/orders.component';
 import { SearchBoxDirective } from './search-box.directive';
 import { SearchBox2Directive } from './search-box2/search-box2.directive';
+import { InitCapsPipe } from './shared/init-caps.pipe';
 
 @NgModule({
   declarations: [
@@ -14,7 +15,8 @@ import { SearchBox2Directive } from './search-box2/search-box2.directive';
     CustomerComponent,
     OrdersComponent,
     SearchBoxDirective,
-    SearchBox2Directive
+    SearchBox2Directive,
+    InitCapsPipe
   ],
   imports: [
     BrowserModule,
